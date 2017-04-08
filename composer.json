@@ -1,0 +1,15 @@
+{
+    "name": "ryanplasma/wp-wanikani",
+    "description": "WordPress plugin for displaying WaniKani stats",
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "^1.2"
+    },
+    "license": "GPLv2 or later",
+    "authors": [
+        {
+            "name": "Ryan Plas",
+            "email": "ryan@wordplas.com"
+        }
+    ]
+}
