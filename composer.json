@@ -5,6 +5,13 @@
     "require": {
         "composer/installers": "^1.2"
     },
+    "autoload": {
+        "psr-4": {
+            "WPWaniKani\\": [
+                "src/"
+            ]
+        }
+    },
     "license": "GPLv2 or later",
     "authors": [
         {
