@@ -21,5 +21,5 @@ define('WPWANIKANI_PLUGIN_URL', plugin_dir_url(__FILE__));
 
 // Instantiate new plugin object
 $plugin = new WPWaniKaniPlugin();
-
+$plugin->addActions();
 $plugin->run();

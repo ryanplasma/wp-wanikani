@@ -29,8 +29,6 @@ class WPWaniKaniPlugin
     {
         $this->loader     = new Loader();
         $this->statWidget = new StatWidget();
-
-        $this->addActions();
     }
 
     /**
