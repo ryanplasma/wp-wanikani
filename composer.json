@@ -23,6 +23,6 @@
     }
   ],
   "scripts": {
-    "test": "vendor/bin/phpcs -p . --standard=PSR2 --ignore=*/vendor/*"
+    "test": "vendor/bin/phpcs -p . --standard=PSR2 --ignore=*/vendor/*,wp-wanikani.php"
   }
 }
