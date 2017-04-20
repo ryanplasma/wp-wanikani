@@ -16,8 +16,8 @@ use WPWaniKani\Plugin\WPWaniKaniPlugin;
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Define paths to this directory for use in other files.
-define('WPWaniKani_PLUGIN_PATH', plugin_dir_path(__FILE__));
-define('WPWaniKani_PLUGIN_URL', plugin_dir_url(__FILE__));
+define('WPWANIKANI_PLUGIN_PATH', plugin_dir_path(__FILE__));
+define('WPWANIKANI_PLUGIN_URL', plugin_dir_url(__FILE__));
 
 // Instantiate new plugin object
 $plugin = new WPWaniKaniPlugin();

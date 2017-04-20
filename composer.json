@@ -1,22 +1,25 @@
 {
-    "name": "ryanplasma/wp-wanikani",
-    "description": "WordPress plugin for displaying WaniKani stats",
-    "type": "wordpress-plugin",
-    "require": {
-        "composer/installers": "^1.2"
-    },
-    "autoload": {
-        "psr-4": {
-            "WPWaniKani\\": [
-                "src/"
-            ]
-        }
-    },
-    "license": "GPLv2 or later",
-    "authors": [
-        {
-            "name": "Ryan Plas",
-            "email": "ryan@wordplas.com"
-        }
-    ]
+  "name": "ryanplasma/wp-wanikani",
+  "description": "WordPress plugin for displaying WaniKani stats",
+  "type": "wordpress-plugin",
+  "require": {
+    "composer/installers": "^1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "WPWaniKani\\": [
+        "src/"
+      ]
+    }
+  },
+  "license": "GPLv2 or later",
+  "authors": [
+    {
+      "name": "Ryan Plas",
+      "email": "ryan@wordplas.com"
+    }
+  ],
+  "scripts": {
+    "test": "phpcs -p . --standard=PSR2 --ignore=*/vendor/*"
+  }
 }
