@@ -25,7 +25,7 @@ class StatWidget extends \WP_Widget
     public function widget($args, $instance)
     {
         echo $args['before_widget'];
-        echo "<h2 class=\"widget-title\">WaniKani Stats</h2>";
+        echo "<h2 class=\"widget-title\">My WaniKani Stats</h2>";
         echo $args['after_widget'];
     }
 }
